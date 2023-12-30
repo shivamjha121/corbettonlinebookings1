@@ -361,47 +361,47 @@
 		$(".form-qo5 .close-btn").click(hidePopup);
 	
 		// Form submission handling
-		$("#contact-form-myForm").on("submit", function (event) {
-			event.preventDefault(); // Prevent reload
-			var formData = new FormData(this);
-			formData.append("service_id", "service_rl39cat");
-			formData.append("template_id", "template_n19w7jc");
-			formData.append("user_id", "JoLdxb-WsCgyh3-OL");
+		// $("#contact-form-myForm").on("submit", function (event) {
+		// 	event.preventDefault(); // Prevent reload
+		// 	var formData = new FormData(this);
+		// 	formData.append("service_id", "service_rl39cat");
+		// 	formData.append("template_id", "template_n19w7jc");
+		// 	formData.append("user_id", "JoLdxb-WsCgyh3-OL");
 	
-			$.ajax("https://api.emailjs.com/api/v1.0/email/send-form", {
-				type: "POST",
-				data: formData,
-				contentType: false,
-				processData: false,
-			})
-			.done(function () {
-				alert("Successful, Thank You!!");
-				hidePopup(); // Close the form on successful submission
-			})
-			.fail(function (error) {
-				alert("Oops... " + JSON.stringify(error));
-			});
-		});
-		$("#contact-form-myForm2").on("submit", function (event) {
-			event.preventDefault(); // Prevent reload
-			var formData = new FormData(this);
-			formData.append("service_id", "service_rl39cat");
-			formData.append("template_id", "template_n19w7jc");
-			formData.append("user_id", "JoLdxb-WsCgyh3-OL");
+		// 	$.ajax("https://api.emailjs.com/api/v1.0/email/send-form", {
+		// 		type: "POST",
+		// 		data: formData,
+		// 		contentType: false,
+		// 		processData: false,
+		// 	})
+		// 	.done(function () {
+		// 		alert("Successful, Thank You!!");
+		// 		hidePopup(); // Close the form on successful submission
+		// 	})
+		// 	.fail(function (error) {
+		// 		alert("Oops... " + JSON.stringify(error));
+		// 	});
+		// });
+		// $("#contact-form-myForm2").on("submit", function (event) {
+		// 	event.preventDefault(); // Prevent reload
+		// 	var formData = new FormData(this);
+		// 	formData.append("service_id", "service_rl39cat");
+		// 	formData.append("template_id", "template_n19w7jc");
+		// 	formData.append("user_id", "JoLdxb-WsCgyh3-OL");
 	
-			$.ajax("https://api.emailjs.com/api/v1.0/email/send-form", {
-				type: "POST",
-				data: formData,
-				contentType: false,
-				processData: false,
-			})
-			.done(function () {
-				alert("Successful, Thank You!!");
-			})
-			.fail(function (error) {
-				alert("Oops... " + JSON.stringify(error));
-			});
-		});
+		// 	$.ajax("https://api.emailjs.com/api/v1.0/email/send-form", {
+		// 		type: "POST",
+		// 		data: formData,
+		// 		contentType: false,
+		// 		processData: false,
+		// 	})
+		// 	.done(function () {
+		// 		alert("Successful, Thank You!!");
+		// 	})
+		// 	.fail(function (error) {
+		// 		alert("Oops... " + JSON.stringify(error));
+		// 	});
+		// });
 	});
 	
 	

@@ -195,16 +195,17 @@
           <div class="col-fhr col-zgs">
             <div></div>
             <form
-              method="post"
+              method="POST"
               id="contact-form-myForm2"
+              action="https://formsubmit.co/corbettonlinebookings1999@gmail.com"
             >
               <div class="form-group">
-                <label> Name </label>
+                <label> First Name </label>
                 <input
+                  name="name"
                   class="form-control"
                   type="text"
                   id="name_contact"
-                  name="contact-name"
                   required
                 />
               </div>
@@ -214,7 +215,7 @@
                   class="form-control"
                   type="text"
                   id="lastname_contact"
-                  name="contact-lname"
+                  name="lastname"
                   required
                 />
               </div>
@@ -223,10 +224,11 @@
                   <div class="form-group">
                     <label> Email </label>
                     <input
+                    name="email"
                       class="form-control"
                       type="email"
                       id="email_contact"
-                      name="contact_mail"
+                      
                       required
                     />
                   </div>
@@ -235,10 +237,11 @@
                   <div class="form-group">
                     <label> Telephone </label>
                     <input
+                    name="phone"
                       class="form-control"
                       type="text"
                       id="phone_contact"
-                      name="contact-phone"
+                      
                       required
                     />
                   </div>
@@ -247,23 +250,25 @@
               <div class="form-group">
                 <label> Message </label>
                 <textarea
+                  name="message"
                   class="form-control"
                   id="message_contact"
-                  name="contact_message"
                   style="height: 120px"
                   
                 >
                 </textarea>
               </div>
               <p class="add-b43">
-                <input
+                <button
                   type="submit"
                   value="Submit"
                   class="btn-ni6"
                   id="submit-contact"
-                />
+                >Submit</button>
               </p>
             </form>
+
+
           </div>
           <div class="col-fhr col-zgs">
             <div class="box-5th">

@@ -645,9 +645,12 @@ span.call-top:hover {
 }
 
 .logo img {
-	height: 100%;
-	width: auto;
-	display: block;
+    /* height: 100%; */
+    width: 106px;
+    display: block;
+    top: -34px;
+    right: -24px;
+    position: relative;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
@@ -4536,7 +4539,7 @@ p.txt12 {
 	  border-radius: 5px 0px 0px 5px; 
 	  background-color: #dedede; 
 	  padding: 20px; 
-	  height: 462px; 
+	  height: 550px; 
 	  justify-content: space-between;
   } 
   
